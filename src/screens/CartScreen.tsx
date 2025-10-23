@@ -5,7 +5,7 @@ import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
 import { useAppSelector, useAppDispatch } from '../store';
 import { getTheme } from '../theme';
 import { selectIsDark } from '../store/themeSlice';
-import { scale, verticalScale } from '../utils/scale';
+import { scale } from '../utils/scale';
 import { SCREENS } from '../utils/screen';
 import {
   selectCartItems,

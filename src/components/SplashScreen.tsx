@@ -16,7 +16,7 @@ const SplashScreen: React.FC<SplashScreenProps> = ({ onFinish }) => {
     setTimeout(() => {
       onFinish();
     }, 1000);
-  }, []);
+  }, [onFinish]);
 
   return (
     <View style={[styles.container]}>

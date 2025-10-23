@@ -14,7 +14,6 @@ jest.mock('@react-native-community/netinfo', () => ({
 
 // Mock react-native-reanimated
 jest.mock('react-native-reanimated', () => {
-  const React = require('react');
   const { View } = require('react-native');
   
   return {
@@ -33,7 +32,7 @@ jest.mock('react-native-reanimated', () => {
     withSpring: jest.fn(val => val),
     withTiming: jest.fn(val => val),
     withSequence: jest.fn((...args) => args[0]),
-    withRepeat: jest.fn((val, count, reverse) => val),
+    withRepeat: jest.fn((val, _count, _reverse) => val),
     withDelay: jest.fn((delay, val) => val),
     Easing: {
       linear: jest.fn(),

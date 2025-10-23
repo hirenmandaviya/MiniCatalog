@@ -50,19 +50,19 @@ const CommonModal: React.FC<CommonModalProps> = ({
   const isDark = useAppSelector(selectIsDark);
   const theme = getTheme(isDark);
 
-  const scale = useSharedValue(0);
+  const scaleAnim = useSharedValue(0);
   const opacity = useSharedValue(0);
 
   useEffect(() => {
     if (visible) {
       opacity.value = withTiming(1, { duration: 200, easing: Easing.ease });
-      scale.value = withSpring(1, {
+      scaleAnim.value = withSpring(1, {
         damping: 15,
         stiffness: 150,
       });
     } else {
       opacity.value = withTiming(0, { duration: 150, easing: Easing.ease });
-      scale.value = withTiming(0, { duration: 150, easing: Easing.ease });
+      scaleAnim.value = withTiming(0, { duration: 150, easing: Easing.ease });
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [visible]);

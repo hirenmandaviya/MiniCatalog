@@ -1,7 +1,7 @@
 import { createSlice, createAsyncThunk, PayloadAction } from '@reduxjs/toolkit';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { RootState } from '../../store';
-import { CartItem, CartState } from './types';
+import { CartState } from './types';
 import { Product } from '../products/types';
 
 const CART_KEY = '@cart_items';
@@ -67,7 +67,7 @@ const cartSlice = createSlice({
       AsyncStorage.setItem(CART_KEY, JSON.stringify(state));
     },
     updateQuantity: (state, action: PayloadAction<{ productId: string; quantity: number }>) => {
-      const item = state.items.find(item => item.product.id === action.payload.productId);
+      const item = state.items.find(cartItem => cartItem.product.id === action.payload.productId);
       if (item) {
         item.quantity = Math.max(1, action.payload.quantity);
         AsyncStorage.setItem(CART_KEY, JSON.stringify(state));
@@ -122,8 +122,8 @@ export const selectIsInCart = (state: RootState, productId: string) => {
 };
 
 export const selectCartItemQuantity = (state: RootState, productId: string) => {
-  const item = state.cart.items.find(item => item.product.id === productId);
-  return item?.quantity || 0;
+  const cartItem = state.cart.items.find(item => item.product.id === productId);
+  return cartItem?.quantity || 0;
 };
 
 export const {

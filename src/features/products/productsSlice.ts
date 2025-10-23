@@ -1,11 +1,10 @@
 import { createSlice, createAsyncThunk, PayloadAction } from '@reduxjs/toolkit';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { RootState } from '../../store';
-import { Product, ProductsState } from './types';
+import { ProductsState } from './types';
 import { fetchProducts as fetchProductsAPI } from '../../api/products';
 
 const CACHE_KEY = '@products_cache';
-const CACHE_DURATION = 5 * 60 * 1000; // 5 minutes
 
 const initialState: ProductsState = {
   items: [],

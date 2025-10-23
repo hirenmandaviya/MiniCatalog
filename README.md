@@ -28,13 +28,7 @@ A production-ready React Native mobile application demonstrating best practices 
 
 ## 📹 Demo Video
 
-> **[Click here to watch the demo video (2-4 min walkthrough)](PLACE_YOUR_VIDEO_LINK_HERE)**
->
-> **Or scan the QR code below:**
->
-> ```
-> [PLACE QR CODE IMAGE HERE FOR VIDEO LINK]
-> ```
+> **[Click here to watch the demo video (2-4 min walkthrough)](<https://github.com/hirenmandaviya/MiniCatalog/blob/main/src/assets/Mini%20Catalog%20(1).webm>)**
 >
 > **Demo Coverage:**
 >
@@ -347,38 +341,6 @@ Sample Command: `adb shell am start -a android.intent.action.VIEW -d "minicatalo
 
 **Persistence:** AsyncStorage for cart, favorites, and product cache
 
-## 📸 Screenshots
-
-> **Note:** Add your actual screenshots below by replacing the placeholders
-
-### 🌞 Light Mode
-
-| Product List                                        | Product Details                                           | Cart                                | Favorites                                     |
-| --------------------------------------------------- | --------------------------------------------------------- | ----------------------------------- | --------------------------------------------- |
-| ![Product List](screenshots/product-list-light.png) | ![Product Details](screenshots/product-details-light.png) | ![Cart](screenshots/cart-light.png) | ![Favorites](screenshots/favorites-light.png) |
-| Grid view with search & filters                     | Image carousel with ratings                               | Promo code & checkout               | Saved products                                |
-
-### 🌙 Dark Mode
-
-| Product List                                            | Cart Screen                             | Settings                                        |
-| ------------------------------------------------------- | --------------------------------------- | ----------------------------------------------- |
-| ![Product List Dark](screenshots/product-list-dark.png) | ![Cart Dark](screenshots/cart-dark.png) | ![Settings Dark](screenshots/settings-dark.png) |
-| Elegant dark theme                                      | Dark mode cart                          | Theme & language toggle                         |
-
-### 🌐 RTL Support (Arabic)
-
-| RTL Product List                              | RTL Product Details                                 | RTL Cart                              |
-| --------------------------------------------- | --------------------------------------------------- | ------------------------------------- |
-| ![RTL List](screenshots/rtl-product-list.png) | ![RTL Details](screenshots/rtl-product-details.png) | ![RTL Cart](screenshots/rtl-cart.png) |
-| Right-to-left layout                          | Arabic text & RTL carousel                          | Arabic pricing (AED)                  |
-
-### 📱 Additional Screens
-
-| Empty Cart                                | Error State                           | Loading State                       | Search & Filters                    |
-| ----------------------------------------- | ------------------------------------- | ----------------------------------- | ----------------------------------- |
-| ![Empty Cart](screenshots/empty-cart.png) | ![Error](screenshots/error-state.png) | ![Loading](screenshots/loading.png) | ![Filters](screenshots/filters.png) |
-| Beautiful empty state                     | Retry functionality                   | Skeleton loaders                    | Category & price filters            |
-
 ## 🚦 CI/CD Pipeline
 
 GitHub Actions configured for:
@@ -478,7 +440,7 @@ Based on the assignment requirements, here's how this project scores:
 
 - [x] GitHub Repository with complete code
 - [x] README with documentation
-- [x] Demo Video: [LINK_TO_VIDEO_HERE]
+- [x] Demo Video: [https://github.com/hirenmandaviya/MiniCatalog/blob/main/src/assets/Mini%20Catalog%20(1).webm]
 - [x] Android APK: [LINK_TO_APK_HERE]
 - [x] All tests passing
 - [x] CI/CD Pipeline configured
@@ -492,12 +454,5 @@ Based on the assignment requirements, here's how this project scores:
 - Version: 0.0.1
 - Min Android: API 23
 - Target Android: API 34
-
-## 👨‍💻 Author
-
-**[Your Name]**  
-GitHub: [Your GitHub] | Email: [Your Email] | LinkedIn: [Your LinkedIn]
-
----
 
 **Built with React Native 0.81.4 + TypeScript 5.8.3 + Redux Toolkit**
