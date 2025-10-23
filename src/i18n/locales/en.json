@@ -1,0 +1,105 @@
+{
+  "common": {
+    "appName": "Mini Catalog",
+    "loading": "Loading...",
+    "error": "Error",
+    "retry": "Retry",
+    "cancel": "Cancel",
+    "save": "Save",
+    "delete": "Delete",
+    "confirm": "Confirm",
+    "search": "Search",
+    "filter": "Filter",
+    "clear": "Clear",
+    "apply": "Apply",
+    "close": "Close",
+    "ok": "OK",
+    "yes": "Yes",
+    "no": "No"
+  },
+  "products": {
+    "title": "Products",
+    "searchPlaceholder": "Search products...",
+    "noProducts": "No products found",
+    "noProductsDesc": "Try adjusting your filters or search query",
+    "rating": "Rating",
+    "category": "Category",
+    "priceRange": "Price Range",
+    "allCategories": "All Categories",
+    "sortBy": "Sort By",
+    "featured": "Featured",
+    "priceLowToHigh": "Price: Low to High",
+    "priceHighToLow": "Price: High to Low",
+    "ratingHighToLow": "Rating: Highest First"
+  },
+  "productDetails": {
+    "title": "Product Details",
+    "description": "Description",
+    "addToCart": "Add to Cart",
+    "quantity": "Quantity",
+    "price": "Price",
+    "category": "Category",
+    "rating": "Rating",
+    "reviews": "reviews",
+    "inStock": "In Stock",
+    "outOfStock": "Out of Stock",
+    "addedToCart": "Added to cart!",
+    "specifications": "Specifications"
+  },
+  "cart": {
+    "title": "Cart",
+    "emptyCart": "Your cart is empty",
+    "emptyCartDesc": "Start adding products to your cart",
+    "continueShopping": "Continue Shopping",
+    "subtotal": "Subtotal",
+    "discount": "Discount",
+    "total": "Total",
+    "promoCode": "Promo Code",
+    "promoCodePlaceholder": "Enter promo code",
+    "applyPromo": "Apply",
+    "promoApplied": "Promo code applied!",
+    "invalidPromo": "Invalid promo code",
+    "removePromo": "Remove",
+    "checkout": "Checkout",
+    "remove": "Remove",
+    "updateQuantity": "Update Quantity",
+    "items": "items",
+    "item": "item",
+    "clearCart": "Clear Cart",
+    "confirmClear": "Are you sure you want to clear your cart?"
+  },
+  "favorites": {
+    "title": "Favorites",
+    "emptyFavorites": "No favorites yet",
+    "emptyFavoritesDesc": "Tap the heart icon on products to save them here",
+    "addedToFavorites": "Added to favorites!",
+    "removedFromFavorites": "Removed from favorites"
+  },
+  "settings": {
+    "title": "Settings",
+    "language": "Language",
+    "theme": "Theme",
+    "darkMode": "Dark Mode",
+    "lightMode": "Light Mode",
+    "english": "English",
+    "arabic": "Arabic",
+    "notifications": "Notifications",
+    "about": "About",
+    "version": "Version",
+    "changeLanguageTo": "Change language will restart the app\n Are you sure you want to change language to",
+    "restartingApp": "Restarting app..."
+  },
+  "errors": {
+    "generic": "Something went wrong",
+    "network": "Network error. Please check your connection.",
+    "loadProducts": "Failed to load products",
+    "loadProduct": "Failed to load product details",
+    "offline": "You are offline",
+    "offlineMessage": "Some features may be limited"
+  },
+  "currency": {
+    "aed": "AED",
+    "symbol": "د.إ"
+  }
+}
+

@@ -1,0 +1,203 @@
+{
+  "products": [
+    {
+      "id": "p-1001",
+      "title": "Sony WH-1000XM5 Wireless Headphones",
+      "price": 349.99,
+      "rating": 4.8,
+      "category": "audio",
+      "thumbnail": "https://conceptkart.com/cdn/shop/products/Concept-Kart-Sony-WH-1000XM5-Noise-Cancelling-Headphone-Black-3-_7_7f344960-f8a7-4642-9d57-4e735cba5762_grande.jpg?v=1669448225",
+      "images": [
+        "https://www.sony.co.in/image/4e4154f981a0c362a20d5a3eaea6605e?fmt=png-alpha&wid=676&hei=400",
+        "https://shopatsc.com/cdn/shop/products/2500x2500_Black_5.jpg?v=1694415813",
+        "https://media-ik.croma.com/prod/https://media.tatacroma.com/Croma%20Assets/Entertainment/Headphones%20and%20Earphones/Images/272419_jqvb9x.png?tr=w-600"
+      ],
+      "description": "Industry-leading wireless noise-cancelling headphones with 40-hour battery life, adaptive sound control, and crystal-clear microphone performance for calls."
+    },
+    {
+      "id": "p-1002",
+      "title": "Apple Watch Series 9",
+      "price": 399.99,
+      "rating": 4.9,
+      "category": "wearables",
+      "thumbnail": "https://m.media-amazon.com/images/I/81mHRsWENaL.jpg",
+      "images": [
+        "https://m.media-amazon.com/images/I/81mHRsWENaL.jpg",
+        "https://sm.pcmag.com/pcmag_me/review/a/apple-watc/apple-watch-series-9_r8w9.jpg",
+        "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/s11-case-unselect-gallery-1-202509_GEO_EMEA_FMT_WHH?wid=1200&hei=630&fmt=jpeg&qlt=95&.v=1756344861451"
+      ],
+      "description": "Smartwatch with advanced health metrics, GPS, heart rate, and blood oxygen sensors. Features Always-On Retina display and 18-hour all-day battery."
+    },
+    {
+      "id": "p-1003",
+      "title": "JBL Flip 6 Portable Bluetooth Speaker",
+      "price": 129.99,
+      "rating": 4.7,
+      "category": "audio",
+      "thumbnail": "https://m.media-amazon.com/images/I/81nT721hWGL.jpg",
+      "images": [
+        "https://m.media-amazon.com/images/I/81nT721hWGL.jpg",
+        "https://avshack.in/cdn/shop/products/jbl-flip-6-black-jblflip6blkam-e_jpg.png?v=1645809710&width=640"
+      ],
+      "description": "Rugged waterproof Bluetooth speaker with 12-hour playtime, deep bass, and 360-degree sound — perfect for outdoor adventures."
+    },
+    {
+      "id": "p-1004",
+      "title": "GoPro HERO12 Black 4K Action Camera",
+      "price": 499.99,
+      "rating": 4.8,
+      "category": "cameras",
+      "thumbnail": "https://m.media-amazon.com/images/I/61wsvCGXqnL.jpg",
+      "images": [
+        "https://m.media-amazon.com/images/I/61wsvCGXqnL.jpg",
+        "https://gppro.in/wp-content/uploads/2024/11/1693990276_1781066.jpg",
+        "https://poojaelectronics.in/storage/2023/09/GoPro-HERO-12-Action-Camera-Black-Online-Buy-India_07.jpg"
+      ],
+      "description": "Shoot ultra-smooth 5.3K video with HyperSmooth 6.0 stabilization, horizon lock, waterproof build, and dual displays for vlogging."
+    },
+    {
+      "id": "p-1005",
+      "title": "Anker PowerWave Wireless Charger",
+      "price": 39.99,
+      "rating": 4.5,
+      "category": "accessories",
+      "thumbnail": "https://m.media-amazon.com/images/I/614+4XNwpML.jpg",
+      "images": [
+        "https://m.media-amazon.com/images/I/614+4XNwpML.jpg",
+        "https://m.media-amazon.com/images/I/61KobYn6YkL.jpg"
+      ],
+      "description": "Fast wireless charging pad with 15W Qi compatibility, non-slip surface, and LED charging indicator for all Qi-enabled phones."
+    },
+    {
+      "id": "p-1006",
+      "title": "Razer Basilisk V3 Gaming Mouse",
+      "price": 89.99,
+      "rating": 4.8,
+      "category": "gaming",
+      "thumbnail": "https://m.media-amazon.com/images/I/61AcT0ZuO3L.jpg",
+      "images": [
+        "https://m.media-amazon.com/images/I/61AcT0ZuO3L.jpg",
+        "https://computechstore.in/wp-content/uploads/2022/10/Basilisk-V3-4.jpg"
+      ],
+      "description": "Ergonomic RGB gaming mouse with 26000 DPI optical sensor, 11 programmable buttons, and customizable lighting effects."
+    },
+    {
+      "id": "p-1007",
+      "title": "UGREEN USB-C 7-in-1 Hub",
+      "price": 59.99,
+      "rating": 4.4,
+      "category": "accessories",
+      "thumbnail": "https://m.media-amazon.com/images/I/61rLe4YdHqL.jpg",
+      "images": [
+        "https://m.media-amazon.com/images/I/61rLe4YdHqL.jpg",
+        "https://www.ugreenindia.com/cdn/shop/files/61tVm3RF2sL._SL1500.jpg?v=1758530832&width=1500"
+      ],
+      "description": "Aluminum USB-C hub with HDMI, SD/microSD card reader, and USB-A ports. Supports 4K video output and 100W power delivery."
+    },
+    {
+      "id": "p-1008",
+      "title": "Keychron K8 Pro Mechanical Keyboard",
+      "price": 119.99,
+      "rating": 4.9,
+      "category": "gaming",
+      "thumbnail": "https://keychron.in/wp-content/smush-webp/2022/07/Keychron-K8-Pro-QMK-VIA-Wireless-Mechanical-Keyboard-for-Mac-Windows-OSA-profile-PBT-keycaps-PCB-screw-in-stabilizer-with-hot-swappable-Gateron-G-Pro-mechanical-blue-switch-compatible_b06752a3-5436-.jpg.webp",
+      "images": [
+        "https://keychron.in/wp-content/smush-webp/2022/07/Keychron-K8-Pro-QMK-VIA-Wireless-Mechanical-Keyboard-for-Mac-Windows-OSA-profile-PBT-keycaps-PCB-screw-in-stabilizer-with-hot-swappable-Gateron-G-Pro-mechanical-blue-switch-compatible_b06752a3-5436-.jpg.webp",
+        "https://keychron.in/wp-content/smush-webp/2022/07/keychronk8proqmkviawirelessmechanicalkeyboardformacwindowsosaprofilepbtkeycapspcbscrewinstabilizerwithhotswappablegaterongpromechanicalswitchcompatiblewithmxcherrypandakailhwithrgbbac.jpg.webp",
+        "https://i.rtings.com/assets/products/XSuXWhSC/keychron-k8-pro-k2-pro-k3-pro-k4-pro-etc/design-medium.jpg?format=auto"
+      ],
+      "description": "Wireless mechanical keyboard with Gateron Pro switches, hot-swappable keys, per-key RGB, and aluminum frame for long typing comfort."
+    },
+    {
+      "id": "p-1009",
+      "title": "Logitech C920s HD Pro Webcam",
+      "price": 99.99,
+      "rating": 4.6,
+      "category": "accessories",
+      "thumbnail": "https://m.media-amazon.com/images/I/71iNwni9TsL.jpg",
+      "images": [
+        "https://m.media-amazon.com/images/I/71iNwni9TsL.jpg",
+        "https://i.insider.com/60624b0967187800184ad326?width=800&format=jpeg&auto=webp"
+      ],
+      "description": "Full HD 1080p webcam with auto-focus, dual microphones, privacy shutter, and low-light correction — perfect for video conferencing."
+    },
+    {
+      "id": "p-1010",
+      "title": "Mi 20000mAh Power Bank 3 Pro",
+      "price": 49.99,
+      "rating": 4.6,
+      "category": "accessories",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQfu9-PIACIOTv87hdVR2l_8TzuDtSvc7FJg&s",
+      "images": [
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQfu9-PIACIOTv87hdVR2l_8TzuDtSvc7FJg&s",
+        "https://m.media-amazon.com/images/I/61r95Ymm5cL._AC_UF350,350_QL80_.jpg"
+      ],
+      "description": "High-capacity 20000mAh portable charger with fast PD charging, USB-C input/output, and dual USB-A ports."
+    },
+    {
+      "id": "p-1011",
+      "title": "MOFT Laptop Stand Pro",
+      "price": 39.99,
+      "rating": 4.5,
+      "category": "accessories",
+      "thumbnail": "https://m.media-amazon.com/images/I/71kX1ufOTuL.jpg",
+      "images": [
+        "https://m.media-amazon.com/images/I/71kX1ufOTuL.jpg",
+        "https://yntra.in/cdn/shop/files/Yntra_MOFT_Non_Adhesive_Laptop_Stand_-Easy_Installation_with_laptop.webp?v=1742552292"
+      ],
+      "description": "Lightweight foldable aluminum laptop stand that improves posture, airflow, and stability for laptops up to 17 inches."
+    },
+    {
+      "id": "p-1012",
+      "title": "Fitbit Charge 6 Fitness Band",
+      "price": 149.99,
+      "rating": 4.5,
+      "category": "wearables",
+      "thumbnail": "https://assets.myntassets.com/w_412,q_30,dpr_3,fl_progressive,f_webp/assets/images/27465398/2024/2/9/c140b51b-c07d-4a5f-9cdc-792a58e21e5c1707453347630FitbitCharge6ProcelainSilverAlluminium2.jpg",
+      "images": [
+        "https://assets.myntassets.com/w_412,q_30,dpr_3,fl_progressive,f_webp/assets/images/27465398/2024/2/9/c140b51b-c07d-4a5f-9cdc-792a58e21e5c1707453347630FitbitCharge6ProcelainSilverAlluminium2.jpg",
+        "https://m-cdn.phonearena.com/images/article/151032-wide-two_1200/Everything-about-Googles-Fitbit-Charge-6-tracker-is-now-out-of-the-bag.jpg"
+      ],
+      "description": "Slim fitness tracker with heart rate, SpO₂, sleep tracking, step counter, GPS, and up to 10-day battery life."
+    },
+    {
+      "id": "p-1013",
+      "title": "Samsung Galaxy Buds 3 Pro",
+      "price": 199.99,
+      "rating": 4.8,
+      "category": "audio",
+      "thumbnail": "https://m.media-amazon.com/images/I/71ke2BEdIhL.jpg",
+      "images": [
+        "https://m.media-amazon.com/images/I/71ke2BEdIhL.jpg",
+        "https://images.samsung.com/is/image/samsung/assets/us/galaxy-buds3-pro/images/galaxy-buds3-pro-new-design-video-endframe-mo_0710.jpg?imbypass=true"
+      ],
+      "description": "True wireless earbuds with adaptive noise cancelling, ambient mode, and 28-hour total playtime with the charging case."
+    },
+    {
+      "id": "p-1014",
+      "title": "Neewer 10-inch LED Ring Light Kit",
+      "price": 59.99,
+      "rating": 4.6,
+      "category": "accessories",
+      "thumbnail": "https://m.media-amazon.com/images/I/615v9TBa6SL.jpg",
+      "images": [
+        "https://m.media-amazon.com/images/I/615v9TBa6SL.jpg",
+        "https://m.media-amazon.com/images/I/61I5Ya3f-+L._AC_UF894,1000_QL80_.jpg"
+      ],
+      "description": "Adjustable LED ring light with tripod, phone mount, and 3 color temperature modes for streaming or photography."
+    },
+    {
+      "id": "p-1015",
+      "title": "Amazon Echo Show 10 Smart Display",
+      "price": 249.99,
+      "rating": 4.7,
+      "category": "smart-home",
+      "thumbnail": "https://m.media-amazon.com/images/I/51w0Il2RJTL.jpg",
+      "images": [
+        "https://m.media-amazon.com/images/I/51w0Il2RJTL.jpg",
+        "https://m.media-amazon.com/images/I/51iABjSt3BS._AC_UF894,1000_QL80_.jpg"
+      ],
+      "description": "Smart home hub with Alexa, 10.1-inch HD display, adaptive color, and motion tracking camera — control lights, cameras, and calls hands-free."
+    }
+  ]
+}

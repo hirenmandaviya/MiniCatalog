@@ -1,0 +1,105 @@
+{
+  "common": {
+    "appName": "الكتالوج الصغير",
+    "loading": "جاري التحميل...",
+    "error": "خطأ",
+    "retry": "إعادة المحاولة",
+    "cancel": "إلغاء",
+    "save": "حفظ",
+    "delete": "حذف",
+    "confirm": "تأكيد",
+    "search": "بحث",
+    "filter": "تصفية",
+    "clear": "مسح",
+    "apply": "تطبيق",
+    "close": "إغلاق",
+    "ok": "موافق",
+    "yes": "نعم",
+    "no": "لا"
+  },
+  "products": {
+    "title": "المنتجات",
+    "searchPlaceholder": "البحث عن المنتجات...",
+    "noProducts": "لم يتم العثور على منتجات",
+    "noProductsDesc": "حاول تعديل المرشحات أو استعلام البحث",
+    "rating": "التقييم",
+    "category": "الفئة",
+    "priceRange": "نطاق السعر",
+    "allCategories": "جميع الفئات",
+    "sortBy": "ترتيب حسب",
+    "featured": "مميز",
+    "priceLowToHigh": "السعر: من الأقل إلى الأعلى",
+    "priceHighToLow": "السعر: من الأعلى إلى الأقل",
+    "ratingHighToLow": "التقييم: الأعلى أولاً"
+  },
+  "productDetails": {
+    "title": "تفاصيل المنتج",
+    "description": "الوصف",
+    "addToCart": "أضف إلى السلة",
+    "quantity": "الكمية",
+    "price": "السعر",
+    "category": "الفئة",
+    "rating": "التقييم",
+    "reviews": "مراجعات",
+    "inStock": "متوفر",
+    "outOfStock": "غير متوفر",
+    "addedToCart": "تمت الإضافة إلى السلة!",
+    "specifications": "المواصفات"
+  },
+  "cart": {
+    "title": "السلة",
+    "emptyCart": "سلة التسوق فارغة",
+    "emptyCartDesc": "ابدأ بإضافة المنتجات إلى سلتك",
+    "continueShopping": "متابعة التسوق",
+    "subtotal": "المجموع الفرعي",
+    "discount": "الخصم",
+    "total": "الإجمالي",
+    "promoCode": "رمز الخصم",
+    "promoCodePlaceholder": "أدخل رمز الخصم",
+    "applyPromo": "تطبيق",
+    "promoApplied": "تم تطبيق رمز الخصم!",
+    "invalidPromo": "رمز خصم غير صالح",
+    "removePromo": "إزالة",
+    "checkout": "الدفع",
+    "remove": "إزالة",
+    "updateQuantity": "تحديث الكمية",
+    "items": "عناصر",
+    "item": "عنصر",
+    "clearCart": "مسح السلة",
+    "confirmClear": "هل أنت متأكد من أنك تريد مسح سلتك؟"
+  },
+  "favorites": {
+    "title": "المفضلة",
+    "emptyFavorites": "لا توجد مفضلات بعد",
+    "emptyFavoritesDesc": "انقر على أيقونة القلب على المنتجات لحفظها هنا",
+    "addedToFavorites": "تمت الإضافة إلى المفضلة!",
+    "removedFromFavorites": "تمت الإزالة من المفضلة"
+  },
+  "settings": {
+    "title": "الإعدادات",
+    "language": "اللغة",
+    "theme": "المظهر",
+    "darkMode": "الوضع الداكن",
+    "lightMode": "الوضع الفاتح",
+    "english": "الإنجليزية",
+    "arabic": "العربية",
+    "notifications": "الإشعارات",
+    "about": "حول",
+    "version": "الإصدار",
+    "changeLanguageTo": "سيتم إعادة تشغيل التطبيق\n هل أنت متأكد من أنك تريد تغيير اللغة إلى",
+    "restartingApp": "جاري إعادة تشغيل التطبيق..."
+  },
+  "errors": {
+    "generic": "حدث خطأ ما",
+    "network": "خطأ في الشبكة. يرجى التحقق من اتصالك.",
+    "loadProducts": "فشل تحميل المنتجات",
+    "loadProduct": "فشل تحميل تفاصيل المنتج",
+    "offline": "أنت غير متصل",
+    "offlineMessage": "قد تكون بعض الميزات محدودة"
+  },
+  "currency": {
+    "aed": "درهم",
+    "symbol": "د.إ"
+  }
+}
+
