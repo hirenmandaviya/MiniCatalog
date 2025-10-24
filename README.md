@@ -19,7 +19,6 @@ A production-ready React Native mobile application demonstrating best practices 
 - [🌍 Internationalization](#-internationalization-i18n)
 - [🎯 Features Breakdown](#-features-breakdown)
 - [📊 State Management](#-state-management)
-- [📸 Screenshots](#-screenshots)
 - [📊 Mock Data](#-mock-data)
 - [📝 Implementation Checklist](#-implementation-checklist)
 - [📊 Scoring Rubric](#-scoring-rubric-self-assessment-100-points)
@@ -351,7 +350,7 @@ GitHub Actions configured for:
 ## 📊 Mock Data
 
 - **15 products** in `data/products.json`
-- **Categories:** Electronics, Fashion, Home & Kitchen
+- **Categories:** Electronics, Smart-Home, Accessories
 - Each product includes: id, title, price, rating, images, description
 
 ## 📝 Implementation Checklist
@@ -404,7 +403,6 @@ GitHub Actions configured for:
 
 ### Highlights:
 
-- ✅ **Standard Timeline** (3 days) - All must-haves + 9 nice-to-haves implemented
 - ✅ **Test Coverage:** 85%+ with meaningful tests
 - ✅ **Performance:** 60 FPS animations, optimized re-renders
 - ✅ **Code Quality:** TypeScript strict mode, ESLint with no errors
@@ -423,13 +421,13 @@ GitHub Actions configured for:
 - [x] GitHub Repository with complete code
 - [x] README with documentation
 - [x] Demo Video: [https://github.com/hirenmandaviya/MiniCatalog/blob/main/src/assets/Mini%20Catalog%20(1).webm]
-- [x] Android APK: [LINK_TO_APK_HERE]
+- [x] Android APK: [https://drive.google.com/file/d/154HMNWjzQjv02pp9Uj8RXSRG8g2vE1v-/view?usp=sharing]
 - [x] All tests passing
 - [x] CI/CD Pipeline configured
 
 ### 📱 APK Download
 
-**Download:** `[INSERT_APK_LINK_HERE]`
+**Download:** `[https://drive.google.com/file/d/154HMNWjzQjv02pp9Uj8RXSRG8g2vE1v-/view?usp=sharing]`
 
 **Build Info:**
 
