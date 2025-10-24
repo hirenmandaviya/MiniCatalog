@@ -1,5 +1,14 @@
 import React, { useState } from 'react';
-import { View, Text, FlatList, StyleSheet, TouchableOpacity, TextInput } from 'react-native';
+import {
+  View,
+  Text,
+  FlatList,
+  StyleSheet,
+  TouchableOpacity,
+  TextInput,
+  KeyboardAvoidingView,
+  Platform,
+} from 'react-native';
 import { useTranslation } from 'react-i18next';
 import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
 import { useAppSelector, useAppDispatch } from '../store';
@@ -188,102 +197,107 @@ const CartScreen: React.FC<CartScreenProps> = ({ navigation }) => {
   }
 
   return (
-    <View style={styles.container}>
-      <FlatList
-        data={cartItems}
-        renderItem={renderCartItem}
-        keyExtractor={item => item.product.id}
-        contentContainerStyle={styles.listContent}
-        showsVerticalScrollIndicator={false}
-        ListHeaderComponent={
-          <View style={styles.headerContainer}>
-            <Text style={styles.itemCount}>
-              {cartItems.length} {cartItems.length === 1 ? t('cart.item') : t('cart.items')}
-            </Text>
-            <TouchableOpacity onPress={handleClearCart}>
-              <Text style={styles.clearText}>{t('cart.clearCart')}</Text>
-            </TouchableOpacity>
-          </View>
-        }
-      />
-
-      <View style={styles.footer}>
-        {/* Promo Code */}
-        {appliedPromoCode ? (
-          <View style={styles.appliedPromoContainer}>
-            <View style={styles.appliedPromoInfo}>
-              <Icon name="tag" size={scale(20)} color={theme.colors.success} />
-              <Text style={styles.appliedPromoText}>
-                {appliedPromoCode} ({Math.round(discount * 100)}% {t('cart.discount')})
+    <KeyboardAvoidingView
+      behavior={Platform.OS === 'ios' ? 'padding' : 'height'}
+      style={{ flex: 1 }}
+    >
+      <View style={styles.container}>
+        <FlatList
+          data={cartItems}
+          renderItem={renderCartItem}
+          keyExtractor={item => item.product.id}
+          contentContainerStyle={styles.listContent}
+          showsVerticalScrollIndicator={false}
+          ListHeaderComponent={
+            <View style={styles.headerContainer}>
+              <Text style={styles.itemCount}>
+                {cartItems.length} {cartItems.length === 1 ? t('cart.item') : t('cart.items')}
               </Text>
+              <TouchableOpacity onPress={handleClearCart}>
+                <Text style={styles.clearText}>{t('cart.clearCart')}</Text>
+              </TouchableOpacity>
             </View>
-            <TouchableOpacity onPress={handleRemovePromoCode}>
-              <Text style={styles.removePromoText}>{t('cart.removePromo')}</Text>
-            </TouchableOpacity>
-          </View>
-        ) : (
-          <View style={styles.promoContainer}>
-            <TextInput
-              style={styles.promoInput}
-              value={promoCodeInput}
-              onChangeText={setPromoCodeInput}
-              placeholder={t('cart.promoCodePlaceholder')}
-              placeholderTextColor={theme.colors.textTertiary}
-              autoCapitalize="characters"
-            />
-            <TouchableOpacity
-              style={styles.applyPromoButton}
-              onPress={handleApplyPromoCode}
-              activeOpacity={0.7}
-            >
-              <Text style={styles.applyPromoText}>{t('cart.applyPromo')}</Text>
-            </TouchableOpacity>
-          </View>
-        )}
+          }
+        />
 
-        {/* Price Summary */}
-        <View style={styles.summaryContainer}>
-          <View style={styles.summaryRow}>
-            <Text style={styles.summaryLabel}>{t('cart.subtotal')}</Text>
-            <Text style={styles.summaryValue}>{formatPrice(subtotal)}</Text>
-          </View>
-
-          {discount > 0 && (
-            <View style={styles.summaryRow}>
-              <Text style={styles.summaryLabel}>{t('cart.discount')}</Text>
-              <Text style={[styles.summaryValue, styles.discountValue]}>
-                -{formatPrice(subtotal * discount)}
-              </Text>
+        <View style={styles.footer}>
+          {/* Promo Code */}
+          {appliedPromoCode ? (
+            <View style={styles.appliedPromoContainer}>
+              <View style={styles.appliedPromoInfo}>
+                <Icon name="tag" size={scale(20)} color={theme.colors.success} />
+                <Text style={styles.appliedPromoText}>
+                  {appliedPromoCode} ({Math.round(discount * 100)}% {t('cart.discount')})
+                </Text>
+              </View>
+              <TouchableOpacity onPress={handleRemovePromoCode}>
+                <Text style={styles.removePromoText}>{t('cart.removePromo')}</Text>
+              </TouchableOpacity>
+            </View>
+          ) : (
+            <View style={styles.promoContainer}>
+              <TextInput
+                style={styles.promoInput}
+                value={promoCodeInput}
+                onChangeText={setPromoCodeInput}
+                placeholder={t('cart.promoCodePlaceholder')}
+                placeholderTextColor={theme.colors.textTertiary}
+                autoCapitalize="characters"
+              />
+              <TouchableOpacity
+                style={styles.applyPromoButton}
+                onPress={handleApplyPromoCode}
+                activeOpacity={0.7}
+              >
+                <Text style={styles.applyPromoText}>{t('cart.applyPromo')}</Text>
+              </TouchableOpacity>
             </View>
           )}
 
-          <View style={styles.divider} />
+          {/* Price Summary */}
+          <View style={styles.summaryContainer}>
+            <View style={styles.summaryRow}>
+              <Text style={styles.summaryLabel}>{t('cart.subtotal')}</Text>
+              <Text style={styles.summaryValue}>{formatPrice(subtotal)}</Text>
+            </View>
 
-          <View style={styles.summaryRow}>
-            <Text style={styles.totalLabel}>{t('cart.total')}</Text>
-            <Text style={styles.totalValue}>{formatPrice(total)}</Text>
+            {discount > 0 && (
+              <View style={styles.summaryRow}>
+                <Text style={styles.summaryLabel}>{t('cart.discount')}</Text>
+                <Text style={[styles.summaryValue, styles.discountValue]}>
+                  -{formatPrice(subtotal * discount)}
+                </Text>
+              </View>
+            )}
+
+            <View style={styles.divider} />
+
+            <View style={styles.summaryRow}>
+              <Text style={styles.totalLabel}>{t('cart.total')}</Text>
+              <Text style={styles.totalValue}>{formatPrice(total)}</Text>
+            </View>
           </View>
+
+          <Button
+            title={t('cart.checkout')}
+            onPress={handleCheckout}
+            icon="credit-card"
+            iconPosition="left"
+            style={styles.checkoutButton}
+          />
         </View>
 
-        <Button
-          title={t('cart.checkout')}
-          onPress={handleCheckout}
-          icon="credit-card"
-          iconPosition="left"
-          style={styles.checkoutButton}
+        <CommonModal
+          visible={modalVisible}
+          title={modalConfig.title}
+          message={modalConfig.message}
+          icon={modalConfig.icon}
+          iconColor={modalConfig.iconColor}
+          buttons={modalConfig.buttons}
+          onClose={() => setModalVisible(false)}
         />
       </View>
-
-      <CommonModal
-        visible={modalVisible}
-        title={modalConfig.title}
-        message={modalConfig.message}
-        icon={modalConfig.icon}
-        iconColor={modalConfig.iconColor}
-        buttons={modalConfig.buttons}
-        onClose={() => setModalVisible(false)}
-      />
-    </View>
+    </KeyboardAvoidingView>
   );
 };
 
