@@ -1,6 +1,5 @@
 # Mini Catalog - Production-Like Mobile E-Commerce App
 
-[![CI/CD Pipeline](https://github.com/yourusername/mini-catalog/actions/workflows/ci.yml/badge.svg)](https://github.com/yourusername/mini-catalog/actions/workflows/ci.yml)
 [![React Native](https://img.shields.io/badge/React%20Native-0.81.4-blue.svg)](https://reactnative.dev/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.8.3-blue.svg)](https://www.typescriptlang.org/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
@@ -388,8 +387,7 @@ GitHub Actions configured for:
 - [x] **ESLint & Prettier** - Configured with rules
 - [x] **Husky** - Pre-commit hooks for linting
 - [x] **GitHub Actions** - CI pipeline for lint + test
-- [x] **Android Build** - Debug APK generation
-- [x] **iOS Build** - iOS app bundle
+- [x] **Android Build** - Release APK generation
 
 ### ✅ Nice-to-Have Features (9/10 Complete)
 
@@ -403,22 +401,6 @@ GitHub Actions configured for:
 - [x] **Image Fade-In** - Custom ImageWithFadeIn component
 - [x] **Beautiful UI** - Modern design with gradient backgrounds
 - [ ] **Analytics** - Event tracking (optional, can be added)
-
-## 📊 Scoring Rubric Self-Assessment (100 points)
-
-Based on the assignment requirements, here's how this project scores:
-
-| Category               | Points | Score | Comments                                                    |
-| ---------------------- | ------ | ----- | ----------------------------------------------------------- |
-| **Functionality**      | 25     | 25/25 | ✅ All must-haves met; cart math correct; offline works     |
-| **Code Quality**       | 20     | 20/20 | ✅ TypeScript types; clean structure; documented components |
-| **State & Data**       | 15     | 15/15 | ✅ Redux Toolkit; selectors; caching; error handling        |
-| **UX & Accessibility** | 10     | 10/10 | ✅ Empty/error states; loaders; a11y labels; dynamic text   |
-| **i18n & RTL**         | 10     | 10/10 | ✅ EN/AR translations; mirrored layouts; AED formatting     |
-| **Testing**            | 10     | 10/10 | ✅ 7 unit tests + 5 UI tests; core flows covered            |
-| **CI & Repo Hygiene**  | 5      | 5/5   | ✅ GitHub Actions; scripts; pre-commit hooks                |
-| **Polish/Extras**      | 5      | 5/5   | ✅ Dark mode; animations; deep links; search; price filters |
-| **TOTAL**              | 100    | 100   | ✅ All requirements exceeded                                |
 
 ### Highlights:
 
