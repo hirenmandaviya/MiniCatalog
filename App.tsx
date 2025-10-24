@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { NavigationContainer } from '@react-navigation/native';
-import { SafeAreaProvider } from 'react-native-safe-area-context';
+import { SafeAreaProvider, SafeAreaView } from 'react-native-safe-area-context';
 import { Provider as ReduxProvider } from 'react-redux';
 import { StatusBar, LogBox } from 'react-native';
 import NetInfo from '@react-native-community/netinfo';
@@ -76,7 +76,9 @@ const App: React.FC = () => {
   return (
     <ReduxProvider store={store}>
       <SafeAreaProvider>
-        <AppContent />
+        <SafeAreaView edges={['bottom']} style={{ flex: 1 }}>
+          <AppContent />
+        </SafeAreaView>
       </SafeAreaProvider>
     </ReduxProvider>
   );
